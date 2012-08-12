@@ -13,8 +13,11 @@
 		07F26D7415D7499E0080F9B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F26D7215D7499E0080F9B6 /* InfoPlist.strings */; };
 		07F26D7615D7499E0080F9B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F26D7515D7499E0080F9B6 /* main.m */; };
 		07F26D7A15D7499E0080F9B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F26D7915D7499E0080F9B6 /* AppDelegate.m */; };
-		07F26D7D15D7499E0080F9B6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F26D7B15D7499E0080F9B6 /* MainStoryboard.storyboard */; };
 		07F26D8015D7499E0080F9B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F26D7F15D7499E0080F9B6 /* ViewController.m */; };
+		07F26D8815D749CE0080F9B6 /* Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F26D8715D749CE0080F9B6 /* Layer.m */; };
+		07F26D8A15D749E80080F9B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F26D8915D749E80080F9B6 /* QuartzCore.framework */; };
+		07F26D8D15D74AAD0080F9B6 /* LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F26D8C15D74AAD0080F9B6 /* LayerView.m */; };
+		07F26D9615D74FE60080F9B6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F26D9515D74FE60080F9B6 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,20 @@
 		07F26D6915D7499E0080F9B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07F26D6B15D7499E0080F9B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07F26D6D15D7499E0080F9B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07F26D7115D7499E0080F9B6 /* CALayerShadowTest-Info.plist */ = {isa = PBXFileReference; path = "CALayerShadowTest-Info.plist"; sourceTree = "<group>"; };
+		07F26D7115D7499E0080F9B6 /* CALayerShadowTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CALayerShadowTest-Info.plist"; sourceTree = "<group>"; };
 		07F26D7315D7499E0080F9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07F26D7515D7499E0080F9B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07F26D7715D7499E0080F9B6 /* CALayerShadowTest-Prefix.pch */ = {isa = PBXFileReference; path = "CALayerShadowTest-Prefix.pch"; sourceTree = "<group>"; };
-		07F26D7815D7499E0080F9B6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		07F26D7715D7499E0080F9B6 /* CALayerShadowTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayerShadowTest-Prefix.pch"; sourceTree = "<group>"; };
+		07F26D7815D7499E0080F9B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07F26D7915D7499E0080F9B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07F26D7C15D7499E0080F9B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		07F26D7E15D7499E0080F9B6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		07F26D7E15D7499E0080F9B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		07F26D7F15D7499E0080F9B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07F26D8615D749CE0080F9B6 /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer.h; sourceTree = "<group>"; };
+		07F26D8715D749CE0080F9B6 /* Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layer.m; sourceTree = "<group>"; };
+		07F26D8915D749E80080F9B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		07F26D8B15D74AAD0080F9B6 /* LayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerView.h; sourceTree = "<group>"; };
+		07F26D8C15D74AAD0080F9B6 /* LayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerView.m; sourceTree = "<group>"; };
+		07F26D9515D74FE60080F9B6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F26D8A15D749E80080F9B6 /* QuartzCore.framework in Frameworks */,
 				07F26D6A15D7499E0080F9B6 /* UIKit.framework in Frameworks */,
 				07F26D6C15D7499E0080F9B6 /* Foundation.framework in Frameworks */,
 				07F26D6E15D7499E0080F9B6 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +76,7 @@
 		07F26D6815D7499E0080F9B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07F26D8915D749E80080F9B6 /* QuartzCore.framework */,
 				07F26D6915D7499E0080F9B6 /* UIKit.framework */,
 				07F26D6B15D7499E0080F9B6 /* Foundation.framework */,
 				07F26D6D15D7499E0080F9B6 /* CoreGraphics.framework */,
@@ -77,11 +87,15 @@
 		07F26D6F15D7499E0080F9B6 /* CALayerShadowTest */ = {
 			isa = PBXGroup;
 			children = (
+				07F26D9515D74FE60080F9B6 /* Storyboard.storyboard */,
 				07F26D7815D7499E0080F9B6 /* AppDelegate.h */,
 				07F26D7915D7499E0080F9B6 /* AppDelegate.m */,
-				07F26D7B15D7499E0080F9B6 /* MainStoryboard.storyboard */,
 				07F26D7E15D7499E0080F9B6 /* ViewController.h */,
 				07F26D7F15D7499E0080F9B6 /* ViewController.m */,
+				07F26D8B15D74AAD0080F9B6 /* LayerView.h */,
+				07F26D8C15D74AAD0080F9B6 /* LayerView.m */,
+				07F26D8615D749CE0080F9B6 /* Layer.h */,
+				07F26D8715D749CE0080F9B6 /* Layer.m */,
 				07F26D7015D7499E0080F9B6 /* Supporting Files */,
 			);
 			path = CALayerShadowTest;
@@ -149,7 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F26D7415D7499E0080F9B6 /* InfoPlist.strings in Resources */,
-				07F26D7D15D7499E0080F9B6 /* MainStoryboard.storyboard in Resources */,
+				07F26D9615D74FE60080F9B6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +177,8 @@
 				07F26D7615D7499E0080F9B6 /* main.m in Sources */,
 				07F26D7A15D7499E0080F9B6 /* AppDelegate.m in Sources */,
 				07F26D8015D7499E0080F9B6 /* ViewController.m in Sources */,
+				07F26D8815D749CE0080F9B6 /* Layer.m in Sources */,
+				07F26D8D15D74AAD0080F9B6 /* LayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +191,6 @@
 				07F26D7315D7499E0080F9B6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		07F26D7B15D7499E0080F9B6 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07F26D7C15D7499E0080F9B6 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

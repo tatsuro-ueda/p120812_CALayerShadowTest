@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Layer.h
 //  CALayerShadowTest
 //
 //  Created by 達郎 植田 on 12/08/12.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-@class LayerView;
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
-{
-    LayerView *lv;
-}
-- (IBAction)move:(id)sender;
+@interface Layer : CALayer
+
+- (void)make;
+- (void)move;
+
 @end

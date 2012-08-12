@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LayerView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    lv = [[LayerView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:lv];
 }
 
 - (void)viewDidUnload
@@ -31,4 +34,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)move:(id)sender {
+    [lv move];
+}
 @end
